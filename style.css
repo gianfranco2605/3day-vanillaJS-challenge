@@ -1,0 +1,44 @@
+/* VARIABLES */
+
+:root {
+    --base: #ffc600;
+    --spacing: 20px;
+    --blur:10px;
+}
+
+h4 {
+    text-align: center;
+    font-size: .7rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif 
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    margin-top: 40px;
+    
+
+}
+
+.hl {
+    color: var(--base);
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+body{
+    text-align: center;
+    background-color: #466881;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.controls {
+
+    margin-top: 50px;
+}
